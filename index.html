@@ -5,7 +5,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
 	<link rel="stylesheet" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Portfolio</title>
@@ -17,9 +20,7 @@
 		<video autoplay>
 			<source src="img/Heading1.mp4" type="video/mp4">
 		</video>
-		<nav>
-			<h1>Hello</h1>
-		</nav>
+
 	</header>
 
 	<div class="container">
@@ -34,28 +35,68 @@
 		</div>
 
 	</div>
+	<br>
+	<hr>
+	<div class="outerContainer2">
+		<h1>Technolgies</h1>
+	</div>
 	<div class="container2">
-		<div>
-			<h1>HELLO</h1>
+
+		<div class="card" data-aos="fade-left">
+			<img src="img/html.png">
+			<h1>HTML</h1>
 		</div>
-		<div>
-			<h1>HELLO</h1>
+
+		<div class="card" data-aos="fade-left">
+			<img src="img/js.png">
+			<h1>JavaScript</h1>
 		</div>
-		<div>
-			<h1>HELLO</h1>
+		<div class="card" data-aos="fade-right">
+
+			<img src="img/css.png">
+			<h1>CSS</h1>
+		</div>
+
+
+		<div class="card" data-aos="fade-right">
+			<img src="img/node.png">
+			<h1>Node</h1>
 		</div>
 	</div>
-	<img src="img/testIt.png" class="logo">
 
-	<footer>
-		<div>
-			<h1>HELLO</h1>
-		</div>
-		<div>
-			<h1>HELLO</h1>
-		</div>
-	</footer>
+	<br>
+	<div class="container3">
 
+		<div class="grid-item" id="paragraph" data-aos="fade-right">
+			<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+			</span>
+		</div>
+		<div class="grid-item">
+			<span><img src="img/Profile.png" data-aos="fade-left"></span>
+		</div>
+	</div>
+	<br>
+
+
+	<div class="icons">
+		<div>
+			<a href="https://www.facebook.com/brian.palowski.121"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+			<a href="https://www.linkedin.com/in/brianpalowski/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/BrianPalowski"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a href="https://github.com/bpalowski"> <i class="fa fa-github" aria-hidden="true"></i></a>
+		</div>
+		<div data-aos="fade">
+			<img src="img/testIt.png" class="logo">
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+
+	</script>
 </body>
 
 </html>
